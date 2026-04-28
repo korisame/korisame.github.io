@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>MyApp Updates</title>
+    <link>https://YOUR_USERNAME.github.io/YOUR_REPO/appcast.xml</link>
+    <description>Auto-update feed for MyApp</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Mon, 28 Apr 2026 10:00:00 +0200</pubDate>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Bug fixes</li>
+          <li>Performance improvements</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0.1/MyApp.dmg"
+        sparkle:edSignature="SIGNATURE_FROM_sign_update_TOOL"
+        length="12345678"
+        type="application/octet-stream" />
+    </item>
+
+    <!-- Aggiungi qui le release future, in ordine cronologico inverso -->
+
+  </channel>
+</rss>

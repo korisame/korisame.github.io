@@ -1,0 +1,33 @@
+[
+  {
+    "name": "App Mac di Esempio",
+    "iconText": "M",
+    "description": "Una app per macOS — sostituisci con la tua descrizione.",
+    "platforms": ["macOS 12+"],
+    "version": "1.0.0",
+    "links": [
+      { "label": "Download .dmg", "url": "https://github.com/korisame/YOUR_REPO/releases/latest/download/MyApp.dmg", "primary": true },
+      { "label": "Source", "url": "https://github.com/korisame/YOUR_REPO" }
+    ]
+  },
+  {
+    "name": "App Mobile di Esempio",
+    "iconText": "P",
+    "description": "App per iOS e Android.",
+    "platforms": ["iOS", "Android"],
+    "version": "2.1.0",
+    "links": [
+      { "label": "App Store", "url": "https://apps.apple.com/app/idXXXXXXXXX", "primary": true },
+      { "label": "Play Store", "url": "https://play.google.com/store/apps/details?id=com.example" }
+    ]
+  },
+  {
+    "name": "Web App di Esempio",
+    "iconText": "W",
+    "description": "Tool web — niente da scaricare.",
+    "platforms": ["Web"],
+    "links": [
+      { "label": "Apri", "url": "https://yourapp.example.com", "primary": true }
+    ]
+  }
+]
