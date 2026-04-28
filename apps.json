@@ -2,57 +2,34 @@
   {
     "name": "Flow",
     "iconText": "F",
-    "description": "Local voice dictation for macOS — Whisper + MLX, push-to-talk via Fn.",
-    "platforms": [
-      "macOS 12+"
-    ],
+    "description": "A focused workspace for getting things done — built for macOS.",
+    "platforms": ["macOS 12+"],
     "version": "1.0.0",
+    "releaseDate": "Coming soon",
+    "featured": true,
     "links": [
-      {
-        "label": "Download .dmg",
-        "url": "https://github.com/korisame/Flow/releases/latest/download/Flow.dmg",
-        "primary": true
-      },
-      {
-        "label": "Source",
-        "url": "https://github.com/korisame/Flow"
-      }
+      { "label": "Download .dmg", "url": "https://github.com/korisame/Flow/releases/latest/download/Flow.dmg", "primary": true },
+      { "label": "Source", "url": "https://github.com/korisame/Flow" }
     ]
   },
   {
-    "name": "App Mobile di Esempio",
-    "iconText": "P",
-    "description": "App per iOS e Android.",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "version": "2.1.0",
+    "name": "Example Mobile App",
+    "iconText": "M",
+    "description": "Placeholder for an iOS / Android project.",
+    "platforms": ["iOS", "Android"],
+    "version": "0.0.1",
     "links": [
-      {
-        "label": "App Store",
-        "url": "https://apps.apple.com/app/idXXXXXXXXX",
-        "primary": true
-      },
-      {
-        "label": "Play Store",
-        "url": "https://play.google.com/store/apps/details?id=com.example"
-      }
+      { "label": "App Store", "url": "https://apps.apple.com", "primary": true },
+      { "label": "Play Store", "url": "https://play.google.com" }
     ]
   },
   {
-    "name": "Web App di Esempio",
+    "name": "Example Web App",
     "iconText": "W",
-    "description": "Tool web — niente da scaricare.",
-    "platforms": [
-      "Web"
-    ],
+    "description": "Placeholder for a web tool — no install needed.",
+    "platforms": ["Web"],
     "links": [
-      {
-        "label": "Apri",
-        "url": "https://yourapp.example.com",
-        "primary": true
-      }
+      { "label": "Open", "url": "https://example.com", "primary": true }
     ]
   }
 ]
