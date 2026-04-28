@@ -19,7 +19,8 @@
         "url": "https://github.com/korisame/Flow"
       }
     ],
-    "releaseDate": "April 2026"
+    "releaseDate": "April 2026",
+    "screenshot": "https://raw.githubusercontent.com/korisame/Flow/main/assets/icon-1024.png"
   },
   {
     "name": "Example Mobile App",
