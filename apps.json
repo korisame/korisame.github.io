@@ -2,14 +2,23 @@
   {
     "name": "Flow",
     "iconText": "F",
-    "description": "A focused workspace for getting things done — built for macOS.",
-    "platforms": ["macOS 12+"],
-    "version": "1.0.0",
-    "releaseDate": "Coming soon",
+    "description": "Local voice dictation for macOS, built with SwiftUI and Parakeet Ultra Core ML. Current 2.4.0 source is available; the latest published binary release is the historical v1.1.0 app.",
+    "platforms": [
+      "macOS 14+ (current source)"
+    ],
+    "version": "2.4.0 (source)",
+    "releaseDate": "Source updated 1 October 2026",
     "featured": true,
     "links": [
-      { "label": "Download .dmg", "url": "https://github.com/korisame/Flow/releases/latest/download/Flow.dmg", "primary": true },
-      { "label": "Source", "url": "https://github.com/korisame/Flow" }
+      {
+        "label": "Source",
+        "url": "https://github.com/korisame/Flow",
+        "primary": true
+      },
+      {
+        "label": "Historical v1.1.0 release",
+        "url": "https://github.com/korisame/Flow/releases/tag/v1.1.0"
+      }
     ]
   }
 ]
